@@ -210,8 +210,8 @@ const Layout = ({ children, customSEO }) => (
           <GlobalStyle />
           {children}
           <Footer>
-            &copy; 2019 by John Doe. All rights reserved. <br />
-            <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
+            &copy; 2019 by AJ. Very few rights reserved. <br />
+            <a href="https://github.com/ajvspattern/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
             <span>Last build: {data.site.buildTime}</span>
           </Footer>
         </React.Fragment>
