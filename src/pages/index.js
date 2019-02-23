@@ -51,8 +51,7 @@ const IndexPage = ({
       <Hero>
         <h1>Hi.</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          I&apos;m AJ. I make things and teach. Right now I'm learning how to be <em>very modern</em> about making websites and building some fun art projects. I also like growing things. I have a turtle.
         </p>
         <Link to="/contact">
           <Button big>
@@ -64,7 +63,7 @@ const IndexPage = ({
         </Link>
       </Hero>
       <Content>
-        <SectionTitle>Latest stories</SectionTitle>
+        <SectionTitle>Things!</SectionTitle>
         {postEdges.map(post => (
           <Article
             title={post.node.frontmatter.title}
